@@ -10,5 +10,19 @@
     width: 20.1875rem;
     height: 6.125rem;
     font-size: 2rem;
+    border-top: 10rem;
     font-weight: 700;
+    display:inline-block;
+    position:relative;
+    position:absolute;
+    top:77%;
+    left:16%;
+}
+
+#jogos_emais {
+    background-image: url(https://i.pinimg.com/originals/bc/9c/e6/bc9ce6285140b008c5735535987ea170.png);
+}
+
+.trio {
+    
 }
