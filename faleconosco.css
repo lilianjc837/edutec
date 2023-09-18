@@ -33,3 +33,7 @@ header {
     font-style: normal;
     line-height: normal;
   }
+
+  .email {
+    padding: 30rem;
+  }

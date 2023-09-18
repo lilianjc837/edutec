@@ -36,11 +36,11 @@
     position: relative;
     display: inline-block; 
     vertical-align: top; 
-    margin-top: 15rem; 
 }
   
 .trio img {
     margin: 2rem;
+    padding-top: 15rem;
     max-width: 100%;
 }
 
@@ -154,6 +154,17 @@
     margin-right: 10rem;
     margin-left: -50rem;
 }
+
+#sol_flor {
+    background-image: url(https://i.pinimg.com/originals/1a/43/17/1a43176668b12d33f80be6eac41579f1.png);
+    padding: 40rem;
+}
+
+
+
+
+
+
 
 
 
