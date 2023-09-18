@@ -21,8 +21,175 @@
 
 #jogos_emais {
     background-image: url(https://i.pinimg.com/originals/bc/9c/e6/bc9ce6285140b008c5735535987ea170.png);
+
 }
 
+#jogos_emais {
+    text-align: center;
+    min-height: 80rem;
+    background-color: #f0f0f0; 
+    padding: 1rem;
+  }
+  
 .trio {
-    
+    align-items: center;
+    position: relative;
+    display: inline-block; 
+    vertical-align: top; 
+    margin-top: 15rem; 
+}
+  
+.trio img {
+    margin: 2rem;
+    max-width: 100%;
+}
+
+.coisas_t {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.coisas_tt {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+#explicacaotrio {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+  
+#uma_vez{
+    text-align: center;
+    font-size: 4rem;
+}
+  
+#inicio {
+    background-color: #84AF97;
+    padding: 12rem;
+}
+
+#inicioo {
+    display: flex;
+}
+
+#uma_vez {
+    margin-top: -5rem;
+}
+
+#pag_p{
+    text-align: justify;
+    font-size: 2.6rem;  
+    margin-top: 10rem;
+    margin-right: 14rem;
+}
+
+#mundoimg img {
+    margin-left: 70rem;
+    margin-top: 10rem;
+}
+  
+#produtores img {
+    padding: 10;
+}
+  
+#produtores {
+    display: flex;
+    background-color: #C0DBB6;
+}
+
+#produtores h1 {
+    font-size: 5rem;
+    margin-left: 30rem;
+    margin-top: 7rem;
+}
+
+#produtores p {
+    text-align: justify;
+    font-size: 2rem;
+    margin-top: 37rem;
+    margin-right: 10rem;
+    margin-left: -45rem;
+}
+
+#consumidores {
+    display: flex;
+    background-color: #C0DBB6; 
+}
+
+#consumidores h1 {
+    font-size: 5rem;
+    margin-left: 30rem;
+    margin-top: 7rem;
+}
+
+#consumidores p {
+    text-align: justify;
+    font-size: 2rem;
+    margin-top: 18rem;
+    margin-right: 16rem;
+    margin-left: -45rem;
+}
+
+#decompositores {
+    display: flex;
+    background-color: #C0DBB6;
+}
+
+#decompositores h1 {
+    font-size: 5rem;
+    margin-left: 25rem;
+    margin-top: 7rem;
+}
+
+#decompositores p {
+    text-align: justify;
+    font-size: 2rem;
+    margin-top: 30rem;
+    margin-right: 10rem;
+    margin-left: -50rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#teia_cadeia {
+    background-color: #84AF97;
+}
+
+#teia_cadeia img {
+    margin-top: 10rem;
+    width: 145rem;
+}
+
+#teia_cadeia p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.tct {
+    display: inline-block;
+    margin-left: 15rem;
+    align-content: center;
+    width: 30rem;
+    height: 10rem;
 }
