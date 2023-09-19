@@ -159,6 +159,16 @@
     background-color: #C0DBB6;
 }
 
+#auto_h_01 img {
+    margin-top: 7rem;
+    margin-bottom: 28rem;
+    margin-left: 28rem;
+}
+
+#auto_h_t h1 {
+    
+}
+
 #teia_cadeia {
     background-color: #84AF97;
     height: 100vh;
@@ -285,12 +295,14 @@ a.sobreoecosync  {
     border-radius: 15px;
 }
 
+
 #sol_flor h1{
     font-size: 36px;
     text-align: center;
+
 }
 
 #sol_flor p{
-    font-size: 20px;
     text-align: center;
+    font-size: 15px;
 }
