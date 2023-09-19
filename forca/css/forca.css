@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-image: url(https://i.pinimg.com/originals/bc/9c/e6/bc9ce6285140b008c5735535987ea170.png);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header {
@@ -41,18 +49,6 @@ header {
     line-height: normal;
   }
 
-body{
-    width: 100%;
-    height: 100vh;
-    margin-top: 10px;
-    background-image: url(https://i.pinimg.com/originals/bc/9c/e6/bc9ce6285140b008c5735535987ea170.png);
-    font-family: 'Open Sans', sans-serif;
-}
-
-main{
-padding-inline: 3.125rem;
-}
-
 .container{
     display: flex;
     justify-content: center;
@@ -62,7 +58,7 @@ padding-inline: 3.125rem;
 }
 
 #imagem{
-    background-image: url("./img/forca.png");
+    background-image: url("../img/forca.png");
     width: 234px;
     height: 272px;
     background-repeat: no-repeat;
@@ -124,26 +120,52 @@ padding-inline: 3.125rem;
 #categoria{
     margin-top: 30px;
     color: #000000;
-    font-size: 3rem;
+    font-size: 1.2em;
 }
 
-#jogarNovamente{
-    position: fixed;
-    width: 70px;
-    height: 70px;
-    border: none;
-    display: none;
-    bottom: 13rem;
-    right: 30rem;
-    transform: rotate(90deg);
-    transform-origin: left top 0;
-}
 
 #status{
     position: fixed;
     bottom: 10px;
     width: 100%;
     text-align: center;
+}
+
+.modal-container{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+@-webkit-keyframes animacao{
+    from{top:-300px; opacity: 0;}
+    to{top:0; opacity: 1;}
+}
+
+@keyframes animacao{
+    from{top:-300px; opacity: 0;}
+    to{top:0; opacity: 1;}
+}
+
+.close{
+    color: #000;
+    float: right;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus{
+    color: #fff;
+    text-decoration: none;
 }
 
 @media (min-width: 321px){
@@ -156,11 +178,45 @@ padding-inline: 3.125rem;
     }
 }
 
+@media (min-width: 376px){
+    .teclas button{
+        width: 30px;
+        height: 30px;
+    }
+    #palavra-secreta{
+        font-size: 1.3em;
+    }
+    .letras{
+        width: 18px;
+    }
+
+    #categoria{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 426px){
+    .teclas button{
+        width: 36px;
+        height: 36px;
+    }
+    #palavra-secreta{
+        font-size: 1.5em;
+    }
+    .letras{
+        width: 20px;
+    }
+
+    #categoria{
+        font-size: 1.6em;
+    }
+}
+
 @media (min-width: 769px){
     .teclas button{
         width: 68px;
         height: 68px;
-        font-size: 3rem;
+        font-size: 2em;
     }
     #palavra-secreta{
         font-size: 2.5em;
@@ -170,10 +226,19 @@ padding-inline: 3.125rem;
     }
 
     #categoria{
-        font-size: 3rem;
+        font-size: 2em;
     }
 
     .modal-add-palavra{
         width: 80%;
     }
 }
+
+@media (min-width: 1025px){
+    .modal-add-palavra{
+        width: 50%;
+    }
+}
+/*#endregion*/
+
+
