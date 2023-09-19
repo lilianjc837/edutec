@@ -19,7 +19,7 @@ header {
     margin-right: 2rem;
     background-color: #00000000;
     color: #000000;
-    border: none;
+    border: #C0DBB6;
     font-weight: 800;
     text-decoration: none;
   }
@@ -37,3 +37,16 @@ header {
   #videotelavideo {
     margin-top: rem ;
   }
+
+
+  .videos {
+    display: flex;
+    background-color: #84AF97;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3rem;
+  }
+
+.h2videos {
+  
+}

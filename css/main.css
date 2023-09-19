@@ -13,10 +13,10 @@
     border-top: 10rem;
     font-weight: 700;
     display:inline-block;
-    position:relative;
     position:absolute;
     top:77%;
     left:16%;
+    transform: translate(-10%, -250%);
 }
 
 #jogos_emais {
@@ -155,47 +155,29 @@
     margin-left: -50rem;
 }
 
-#sol_flor {
-    background-image: url(https://i.pinimg.com/originals/1a/43/17/1a43176668b12d33f80be6eac41579f1.png);
-    padding: 40rem;
-}
-
-
-
-
-
-
-
-
-
-
 #auto_h {
     background-color: #C0DBB6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 #teia_cadeia {
     background-color: #84AF97;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #teia_cadeia img {
-    margin-top: 10rem;
-    width: 145rem;
+    margin-block: 3rem;
+    width: 100%;
 }
 
 #teia_cadeia p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -204,5 +186,111 @@
     margin-left: 15rem;
     align-content: center;
     width: 30rem;
-    height: 10rem;
+    height: 20rem;
+}
+
+.tct p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.final {
+    background-color: #C0DBB6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: -70px;
+    left: 35px;
+}
+
+.logo h2 {
+    font-size: 40px;
+    color: #508668;
+    margin-bottom: 2rem;
+}
+
+
+a.botaofaleconosco  {
+    text-decoration: none;
+    font-size: 2rem;
+    background: #C0DBB6;
+    color: #508668;
+    font-weight: 800;
+    border: 1px solid #C0DBB6;
+}
+
+a.sobreoecosync  {
+    font-size: 2rem;
+    background: #C0DBB6;
+    color: #508668;
+    font-weight: 800;
+    text-decoration: none;
+    border: 1px solid #C0DBB6;
+}
+
+.fale {
+    display: flex;
+    gap: 6rem;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.instalink img {
+    width: 60px;
+}
+
+.ttlink img {
+    width: 80px;
+    position: relative;
+    left: 5px;
+}
+
+.facelink img {
+    width: 60px;
+}
+
+#sol_flor {
+    background-image: url(https://i.pinimg.com/originals/1a/43/17/1a43176668b12d33f80be6eac41579f1.png);
+    background-size: cover;
+    padding: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.a_bioticos-es{
+    background-color: #f0f0f0;
+    width: 300px;
+    height: 400px;
+    padding: 6rem;
+    border-radius: 15px;
+}
+
+.a_bioticos-di{
+    background-color: #f0f0f0;
+    width: 300px;
+    height: 400px;
+    padding: 6rem;
+    border-radius: 15px;
+}
+
+#sol_flor h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+#sol_flor p{
+    font-size: 20px;
+    text-align: center;
 }
